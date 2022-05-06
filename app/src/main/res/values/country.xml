@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paises">
+        <item></item>
+        <item>España</item>
+        <item>Ecuador</item>
+        <item>Estados Unidos</item>
+        <item>Eslovaquia</item>
+        <item>Eslovenia</item>
+        <item>Islandia</item>
+        <item>Islas Marshall</item>
+        <item>Islas Salomon</item>
+    </string-array>
+</resources>
