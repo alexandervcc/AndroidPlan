@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu01_it01"
+        android:title="Opcion 01"/>
+    <item
+        android:id="@+id/menu01_it02"
+        android:title="Opcion 02"/>
+    <group android:id="@+id/manu01_gr01">
+        <item
+            android:id="@+id/menu01_it03"
+            android:title="Opcion 03"/>
+        <item
+            android:id="@+id/menu01_it04"
+            android:title="Opcion 04"/>
+    </group>
+</menu>

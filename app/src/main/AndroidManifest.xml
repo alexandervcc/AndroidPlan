@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApp">
         <activity
+            android:name=".LateralMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.Interfaz3Activity"
             android:exported="false" />
 

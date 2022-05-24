@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:enabled="true">
+        <item
+            android:id="@+id/item01"
+            android:icon="@drawable/ic_baseline_support_agent_24"
+            android:title="Item01"
+            />
+        <item
+            android:id="@+id/item02"
+            android:icon="@drawable/ic_baseline_support_agent_24"
+            android:title="Item02"
+            />
+    </group>
+    <item android:title="Item anidados">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/subitem01"
+                    android:title="SUbitem01"/>
+                <item
+                    android:id="@+id/subitem02"
+                    android:title="SUbitem02"/>
+            </group>
+        </menu>
+    </item>
+</menu>
