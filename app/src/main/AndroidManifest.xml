@@ -9,20 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApp">
+        <service
+            android:name=".servicios.ExampleService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
-            android:name=".LateralMenuActivity"
+            android:name=".activity.ServiceActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".activity.CoroutinesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LateralMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MenuActivity"
             android:exported="false" />
         <activity
             android:name=".activity.Interfaz3Activity"
             android:exported="false" />
 
-        <service
-            android:name=".ServiceXD"
-            android:enabled="true"
-            android:exported="true" />
 
         <activity
             android:name=".activity.Tabs"
@@ -55,7 +62,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

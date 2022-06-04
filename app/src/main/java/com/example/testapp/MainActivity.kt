@@ -1,4 +1,4 @@
-package com.example.testapp.activity
+package com.example.testapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import com.example.testapp.model.Persona
-import com.example.testapp.R
+import com.example.testapp.activity.MainActivity2
 
 class MainActivity : AppCompatActivity() {
     //Parte del ciclo de vida
